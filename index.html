@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сабрина | Графический и UX/UI дизайнер</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Графический дизайнер, UX/UI и 1C разработчик. Создаю визуалы и контент, которые выделяют бренд и приносят результат.">
+</head>
+<body class="light-theme">
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Портфолио</div>
+            <div class="nav-links">
+                <a href="#home" data-i18n="home">Главная</a>
+                <a href="#about" data-i18n="about">Обо мне</a>
+                <a href="#portfolio" data-i18n="portfolio">Портфолио</a>
+                <a href="#contact" data-i18n="contact">Контакты</a>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="tj">TJ</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="heroTitle">Привет, я Сабрина</h1>
+            <p class="tagline" data-i18n="heroSubtitle">Графический дизайнер, UX/UI и 1C разработчик</p>
+            <p class="hero-description">Создаю визуалы и контент, которые<br>🎯 выделяют бренд и приносят результат.</p>
+            <a href="#portfolio" class="cta-button" data-i18n="viewWork">Мои работы</a>
+            <div class="social-links">
+                <a href="https://t.me/sabrina_007" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://instagram.com/graphitex.studio" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="" alt="" id="profile-photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 data-i18n="aboutTitle">Обо мне</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-section">
+                    <h3>Основные направления:</h3>
+                    <ul class="skills-list">
+                        <li>💡 <strong>SMM-дизайн</strong> — оформление аккаунтов, создание Reels, сторис, баннеров и постов под ключ</li>
+                        <li>🧩 <strong>Брендинг</strong> — логотипы, айдентика, упаковка продукта и визуал для компаний</li>
+                        <li>🤖 <strong>VFX и искусственный интеллект</strong> — работа с дополненной реальностью и 3D-анимацией, добавление 3D-моделей продукта в видео, генерация видеороликов на базе ИИ</li>
+                    </ul>
+                </div>
+                
+                <div class="skills">
+                    <h3>Навыки и софт:</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Программы:</h4>
+                            <ul>
+                                <li><i class="fab fa-adobe"></i> Photoshop</li>
+                                <li><i class="fas fa-vector-square"></i> Illustrator</li>
+                                <li><i class="fas fa-cube"></i> CorelDRAW</li>
+                                <li><i class="fab fa-figma"></i> Figma</li>
+                                <li><i class="fas fa-film"></i> After Effects</li>
+                                <li><i class="fas fa-cut"></i> CapCut</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Нейросети:</h4>
+                            <ul>
+                                <li><i class="fas fa-robot"></i> ChatGPT</li>
+                                <li><i class="fas fa-magic"></i> Kling</li>
+                                <li><i class="fas fa-photo-video"></i> Pika</li>
+                                <li><i class="fas fa-images"></i> Freepik</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="experience">
+                    <h3>Опыт работы:</h3>
+                    <div class="job">
+                        <h4>1С разработчик</h4>
+                        <p class="company">Частная шоколадная фирма в Фаровоне</p>
+                    </div>
+                </div>
+                
+                <div class="education">
+                    <h3>Образование:</h3>
+                    <div class="edu-item">
+                        <h4>Таджикский Национальный Университет</h4>
+                        <p>Экономический факультет, 2 курс</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Лицей №2 для одаренных детей</h4>
+                        <p>Город Душанбе</p>
+                    </div>
+                </div>
+                
+                <div class="courses">
+                    <h3>Курсы:</h3>
+                    <div class="courses-single">
+                        <div class="course-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Основы программирования</span>
+                        </div>
+                        <div class="course-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Project Manager in IT - от банка Хумо</span>
+                        </div>
+                        <div class="course-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>1С разработчик</span>
+                        </div>
+                        <div class="course-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Графический и UX/UI дизайн</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="interests">
+                    <h3>Интересы:</h3>
+                    <p>⚡️ Энергетики, экстрим, авто, элитная недвижимость, крупные рекламные кампании</p>
+                    <p>🎥 Короткометражные фильмы, мобилография и новые форматы контента</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 data-i18n="portfolioTitle">Мои работы</h2>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be added by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Контакты</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+992939636495">+992 93 963 64 95</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:saba2005sa06@gmail.com">saba2005sa06@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <a href="https://t.me/sabrina_007" target="_blank" rel="noopener noreferrer">@sabrina_007</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/graphitex.studio" target="_blank" rel="noopener noreferrer">@graphitex.studio</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Город Душанбе, Цирк</span>
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Сабрина. Все права защищены</p>
+        <p class="location">📍 Душанбе, Таджикистан</p>
+    </footer>
+
+    <div class="parallax-spider">
+        <div class="spider-body">
+            <div class="spider-head"></div>
+            <div class="spider-legs">
+                <div class="leg"></div>
+                <div class="leg"></div>
+                <div class="leg"></div>
+                <div class="leg"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
